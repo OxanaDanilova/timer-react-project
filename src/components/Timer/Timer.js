@@ -77,6 +77,13 @@ export default class Timer extends Component {
             <button onClick={this.resetTimer}>Reset</button>
           </div>
         </section>
+        <figure>
+          <div id="timer-center"></div>
+          <div
+            id="seconds-arrow"
+            style={{ transform: `rotate(${this.state.seconds * 6}deg)` }}
+          ></div>
+        </figure>
       </>
     );
   }
