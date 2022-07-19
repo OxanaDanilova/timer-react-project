@@ -10,6 +10,7 @@ export default class Timer extends Component {
       minutes: null,
       seconds: null,
       hunderthSeconds: null,
+      passedTime: null,
     };
   }
 
@@ -23,21 +24,20 @@ export default class Timer extends Component {
       minutes: minutes,
       seconds: seconds,
       hunderthSeconds: hunderthSeconds,
+      passedTime: passedTime,
     });
   };
 
   startTimer = () => {
+    if (this.timerID) return;
     this.setState({
-      startTime: Date.now(),
+      startTime: Date.now() - this.state.passedTime,
       timerID: setInterval(this.tick, 1),
     });
   };
 
   stopTimer = () => {
     clearInterval(this.state.timerID);
-    this.setState({
-      timerID: null,
-    });
   };
   resetTimer = () => {
     this.stopTimer();
@@ -45,6 +45,8 @@ export default class Timer extends Component {
       minutes: null,
       seconds: null,
       hunderthSeconds: null,
+      timerID: null,
+      passedTime: null,
     });
   };
 
