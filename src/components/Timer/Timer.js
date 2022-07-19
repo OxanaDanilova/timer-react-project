@@ -80,9 +80,26 @@ export default class Timer extends Component {
         <figure>
           <div id="timer-center"></div>
           <div
+            id="minutes-arrow"
+            style={{ transform: `rotate(${this.state.minutes * 6}deg)` }}
+          ></div>
+          <div
             id="seconds-arrow"
             style={{ transform: `rotate(${this.state.seconds * 6}deg)` }}
           ></div>
+          <div id="timer-top"></div>
+          <div id="timer-right"></div>
+          <div id="timer-bottom"></div>
+          <div id="timer-left"></div>
+          <button id="timer-start-btn" onClick={this.startTimer}>
+            Start
+          </button>
+          <button id="timer-stop-btn" onClick={this.stopTimer}>
+            Stop
+          </button>
+          <button id="timer-reset-btn" onClick={this.resetTimer}>
+            Reset
+          </button>
         </figure>
       </>
     );

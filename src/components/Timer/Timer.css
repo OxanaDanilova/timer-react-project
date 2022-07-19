@@ -55,6 +55,7 @@ figure {
   background-color: antiquewhite;
   margin: 1rem auto;
   border-radius: 50%;
+  border: 4px solid grey;
   position: relative;
 }
 
@@ -68,13 +69,88 @@ figure {
   background-color: gray;
 }
 
+#timer-top,
+#timer-right,
+#timer-bottom,
+#timer-left {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: brown;
+}
+
+#timer-top {
+  top: 5px;
+  left: calc(50% - 10px);
+}
+
+#timer-bottom {
+  top: calc(100% - 25px);
+  left: calc(50% - 10px);
+}
+
+#timer-right {
+  top: calc(50% - 10px);
+  left: calc(100% - 25px);
+}
+
+#timer-left {
+  top: calc(50% - 10px);
+  left: calc(10px);
+}
+
 #seconds-arrow {
-  width: 3px;
+  width: 6px;
   height: 130px;
   position: absolute;
   top: calc(50% - 130px);
-  left: calc(50% - 1.5px);
-  background-color: brown;
+  left: calc(50% - 3px);
   transform: rotate(0deg);
   transform-origin: bottom;
+  background-color: brown;
+  border-radius: 3px;
+}
+
+#minutes-arrow {
+  background-color: purple;
+  width: 10px;
+  height: 140px;
+  position: absolute;
+  top: calc(50% - 140px);
+  left: calc(50% - 5px);
+  transform: rotate(0deg);
+  transform-origin: bottom;
+  border-radius: 5px;
+}
+
+#timer-start-btn,
+#timer-stop-btn,
+#timer-reset-btn {
+  width: 65px;
+  height: 35px;
+  border-radius: 1rem;
+  position: absolute;
+  top: 10px;
+}
+
+#timer-start-btn {
+  left: calc(80% - 12px);
+  transform: rotate(35deg);
+  background-color: midnightblue;
+  color: antiquewhite;
+}
+
+#timer-stop-btn {
+  right: calc(80% - 12px);
+  transform: rotate(-35deg);
+  background-color: midnightblue;
+  color: antiquewhite;
+}
+
+#timer-reset-btn {
+  top: -30px;
+  left: calc(50% - 32.5px);
+  background-color: purple;
+  color: antiquewhite;
 }
