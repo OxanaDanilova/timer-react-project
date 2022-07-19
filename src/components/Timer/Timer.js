@@ -53,7 +53,7 @@ export default class Timer extends Component {
   render() {
     return (
       <>
-        <h1>React Chrono</h1>
+        <h1>React Chronometer</h1>
         <section className="timerBox">
           <div className="timePanel">
             <p>
