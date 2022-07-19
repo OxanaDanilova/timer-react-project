@@ -1,8 +1,9 @@
-import React from "react"
+import React from "react";
+import Timer from "./components/Timer/Timer";
 function App() {
   return (
     <div className="App">
-      <h1>My React App</h1>
+      <Timer />
     </div>
   );
 }
