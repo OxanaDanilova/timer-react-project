@@ -1,47 +1,30 @@
-# Shopping
+# Project name: Chromometer
 
-**[Test this app yourself](https://oxanadanilova.github.io/timer-react-project/)**
-
----
-
-![chrono](./images/chrono.png)
-
-#### Navigation
-
-- About Project
-  - _Description_
-- How to use this Project
-  - _Description_
-- Developed With
-- Contact
-  - _Mail_
-  - _GitHub_
-  - _LinkedIn_
-- Used Tools
-  - _Fonts_
-  - _Design_
-  - _Icons_
-  - _Colors_
+**[Demo link](https://oxanadanilova.github.io/timer-react-project/)**
 
 ---
 
-### About Project
+![chrono](./public/images/chrono.png)
 
-In this project you can run, stop and reset chronometer.
+## Description
 
-### How to use this Project
+This project was created based on [Create React App](https://github.com/facebook/create-react-app).
 
-##### Developed With
+In this web application you can run, stop and reset chronometer by clicking on the corresponding buttons "Start", "Stop" or "Reset". Time is represented as a field with values, as well as a clock face with arrows.
 
-- [x] _HTML5_
-- [x] _CSS3_
-- [ ] _SASS_
-- [ ] _SCSS_
-- [x] _JavaScript_
-- [x] _React_
-- [ ] _Bootstrap_
-- [x] _npm_
-- [x] _package.json_
+## How to install this Project
+
+### 1. Install all neccessary npm packages:
+
+`npm run install`
+
+### 2. Run script:
+
+`npm run start`
+
+## Technologies
+
+HTML5, SCSS, JavaScript, React, NPM
 
 ---
 
@@ -50,17 +33,6 @@ In this project you can run, stop and reset chronometer.
 Mail: <oxanadanilova11@gmail.com><br>
 GitHub: [OxanaDanilova](https://github.com/OxanaDanilova)<br>
 LinkedIn: [Oxana Danilova](https://www.linkedin.com/in/oxana-danilova-b082a0156/)
-
----
-
-### Used Tools
-
-- [icons](https://)
-- [Canva](https://www.canva.com/)
-- [npm](https://www.npmjs.com/)
-- [Google Fonts](https://fonts.google.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [ColorZilla](https://www.colorzilla.com/chrome/)
 
 ---
 
