@@ -12,6 +12,8 @@ This project was created based on [Create React App](https://github.com/facebook
 
 In this web application you can run, stop and reset chronometer by clicking on the corresponding buttons "Start", "Stop" or "Reset". Time is represented as a field with values, as well as a clock face with arrows.
 
+---
+
 ## How to install this Project
 
 ### 1. Install all neccessary npm packages:
@@ -22,13 +24,15 @@ In this web application you can run, stop and reset chronometer by clicking on t
 
 `npm run start`
 
+---
+
 ## Technologies
 
 HTML5, SCSS, JavaScript, React, NPM
 
 ---
 
-### Contact
+## Contact
 
 Mail: <oxanadanilova11@gmail.com><br>
 GitHub: [OxanaDanilova](https://github.com/OxanaDanilova)<br>
